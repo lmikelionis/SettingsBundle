@@ -9,6 +9,8 @@ parameters:
 
     ongr_settings.settings_provider.class: ONGR\SettingsBundle\Settings\General\Provider\ManagerAwareSettingProvider
 
+    ongr_settings.settings_provider_es_manager: es.manager
+
 services:
     ongr_settings.settings_manager:
         class: %ongr_settings.settings_manager.class%
